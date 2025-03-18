@@ -13,8 +13,8 @@ public class EmployeeDAODemo {
         EmployeeDAO employeeDAO = new EmployeeDAOImpl();
 
         // Adding employees
-        employeeDAO.addEmployee(new Employee(1, "John Do", 50000));
-        employeeDAO.addEmployee(new Employee(2, "Jane Smit", 60000));
+        employeeDAO.addEmployee(new Employee(1, "John Doe", 50000));
+        employeeDAO.addEmployee(new Employee(2, "Jane Smith", 60000));
 
         // Fetching all employees
         System.out.println("All Employees: " + employeeDAO.getAllEmployees());

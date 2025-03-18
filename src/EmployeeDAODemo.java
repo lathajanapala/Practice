@@ -16,6 +16,8 @@ public class EmployeeDAODemo {
         employeeDAO.addEmployee(new Employee(1, "Pushpalatha Janapala", 70000));
         employeeDAO.addEmployee(new Employee(2, "Hemanth Janapala", 80000));
         employeeDAO.addEmployee(new Employee(4, "Maple", -300));
+        employeeDAO.addEmployee(new Employee(8, "Hemanth Janapala", 80000));
+        employeeDAO.addEmployee(new Employee(9, "Maple", -300));
         employeeDAO.addEmployee(new Employee(3, "Gangabhavani korrapati", 90000));
         employeeDAO.addEmployee(new Employee(5, "Sai", 7));
         employeeDAO.addEmployee(new Employee(6, "Janapala", 8));

@@ -16,6 +16,9 @@ public class EmployeeDAODemo {
         employeeDAO.addEmployee(new Employee(1, "Pushpalatha Janapala", 70000));
         employeeDAO.addEmployee(new Employee(2, "Hemanth Janapala", 80000));
         employeeDAO.addEmployee(new Employee(3, "Gangabhavani korrapati", 90000));
+        employeeDAO.addEmployee(new Employee(5, "Sai", 7));
+        employeeDAO.addEmployee(new Employee(6, "Janapala", 8));
+        employeeDAO.addEmployee(new Employee(7, "korrapati", 9));
 
         // Fetching all employees
         System.out.println("All Employees: " + employeeDAO.getAllEmployees());

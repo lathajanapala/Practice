@@ -8,7 +8,7 @@
 //    void deleteEmployee(int id);
 //}
 import java.util.List;
-
+// ram
 public interface EmployeeDAO {
     void addEmployee(Employee emp);
     Employee getEmployeeById(int id);

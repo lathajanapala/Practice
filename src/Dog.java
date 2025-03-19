@@ -1,6 +1,6 @@
 public class Dog extends Animal{
      void makeSound()
      {
-         System.out.println("Bow bow ");
+         System.out.println("Bark and  bow ");
      }
 }
